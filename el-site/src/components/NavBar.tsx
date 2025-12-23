@@ -14,20 +14,20 @@ const Navbar = () => {
         </Link>
 
             <div className="flex items-center gap-5 text-black">
-                <Link to="/" className="py-1 px-3 text-lg font-light text-black hover:text-sky-300 rounded-2xl hover:bg-slate-700 transition duration-300">
+                <Link to="/" className="py-1 px-3 text-lg font-light text-black hover:text-[#F0F0E4] rounded-2xl hover:bg-slate-700 transition duration-300">
                     Home
                 </Link>
 
-                <Link to="/about" className="py-1 px-3 text-lg font-light text-black hover:text-sky-300 rounded-2xl hover:bg-slate-700 transition duration-300">
+                <Link to="/about" className="py-1 px-3 text-lg font-light text-black hover:text-[#F0F0E4] rounded-2xl hover:bg-slate-700 transition duration-300">
                     About
                 </Link>
 
-                <Link to="/contact" className="py-1 px-3 text-lg font-light text-black hover:text-sky-300 rounded-2xl hover:bg-slate-700 transition duration-300">
-                    Contact
+                <Link to="/services" className="py-1 px-3 text-lg font-light text-black hover:text-[#F0F0E4] rounded-2xl hover:bg-slate-700 transition duration-300">
+                    Services
                 </Link>
 
-                <Link to="/services" className="py-1 px-3 text-lg font-light text-black hover:text-sky-300 rounded-2xl hover:bg-slate-700 transition duration-300">
-                    Services
+                <Link to="/contact" className="py-1 px-3 text-lg font-light text-black hover:text-[#F0F0E4] rounded-2xl hover:bg-slate-700 transition duration-300">
+                    Contact
                 </Link>
             </div>
         </nav>
