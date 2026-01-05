@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero"; // Import the Hero component
 import heroImage from "./assets/hero-background.png";
+import SubHero from "./components/SubHero";
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
         ctaLink="/services"
         backgroundImage={heroImage}
       />
+      <SubHero 
+        text={"Branding • Web Design • Digital Experiences"} 
+        />
 
       {/* You can add other sections here, like Services or Portfolio */}
     </div>

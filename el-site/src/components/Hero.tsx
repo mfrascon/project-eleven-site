@@ -18,7 +18,7 @@ const Hero: React.FC<HeroProps> = ({
 }) => {
   return (
     <section className="w-full min-h-[90vh] bg-[#292B3A] flex items-center justify-center text-white">
-      <div className="w-full max-w-[1700px] px-4">
+      <div className="w-full max-w-[1700px] px-4 mt-18">
         
         {/* Image container */}
         <div className="relative w-full h-[520px] md:h-[650px] overflow-hidden shadow-2xl">
